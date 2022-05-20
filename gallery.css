@@ -1,0 +1,21 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: darkgrey;
+    height: 100%;
+    padding: 0px 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery .picture{
+    margin: 40px;
+}
+
+.gallery .picture.img{
+    width: 800px;
+    height: 500px;
+    box-shadow: 0px 0px 32px -1px rgba(0,0,0,0.9);
+}
